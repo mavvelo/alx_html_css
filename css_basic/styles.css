@@ -2,13 +2,35 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #f0f0f0; /* Light gray background for the entire page */
+    color: #333; /* Dark text color for better readability */
+  }
+  
+  header, footer {
+    background-color: #4CAF50; /* Green background for header and footer */
+    color: white; /* White text color */
+    padding: 10px;
+    text-align: center;
+  }
+
+  header .logo {
+    font-size: 24px; /* Larger font size for the logo */
+    margin-right: 10px; /* Space between the logo and the header content */
   }
 
   main {
     display: flex;
     flex-direction: row;
     flex: auto;
-  }
+    background-color: #fff; /* White background for the main content area */
+}
+
+article, aside {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  background-color: #fff; /* White background for articles and aside */
+}
 
   article {
     flex: 2;
@@ -21,10 +43,11 @@ body {
   }
 
   header, footer {
-    background-color: #f4f4f4;
-    padding: 10px;
-    text-align: center;
-  } 
+      background-color: #4CAF50; /* Green background for header and footer */
+      color: black; /* White text color */
+      padding: 10px;
+      text-align: center;
+    }
 
   article, aside {
     padding: 10px;
@@ -45,7 +68,31 @@ body {
     flex: none;
     width: 100%;
   }
-  
+
   main {
     flex: auto;
+  }
+
+  article h1 {
+    color: #4CAF50; /* Green color for headings */
+  }
+  
+  article p {
+    line-height: 1.6; /* Improved readability */
+  }
+  
+  article a {
+    color: #009688; /* Teal color for links */
+    text-decoration: none;
+  }
+  
+  article a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Additional custom styles */
+  
+  body, main, article, aside {
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow effect */
   }
