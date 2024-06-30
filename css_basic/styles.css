@@ -32,6 +32,20 @@ body {
     margin: 5px;
   }
   
+  .works_on_smartphone {
+    flex-direction: column;
+  }
+  
+  .works_on_smartphone main {
+    flex-direction: column;
+  }
+  
+  .works_on_smartphone article,
+  .works_on_smartphone aside {
+    flex: none;
+    width: 100%;
+  }
+  
   main {
     flex: auto;
   }
