@@ -1,0 +1,26 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'source-sans-pro', sans-serif;
+    box-sizing:
+    color: #fff;
+    background: #1a1a1a;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*Header styling */
+header {
+    position: relative;
+    height: 150vh;
+    background:url(images/object.png) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
