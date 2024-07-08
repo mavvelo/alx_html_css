@@ -82,6 +82,24 @@ nav ul li a:hover{
 
 .content ul{
     margin-top: 100px;
-    font-size: 20px;
+    font-size: medium;
     display: center;
+    line-height: 1.8;
+}
+
+.section-center {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.section-center h2{
+    text-align: center;
+    margin-top: 100px;
+}
+.section-center p {
+    text-align: center;
+    margin-top: 50px;
+    line-height: 1.8;
+    font-size: medium;
 }
