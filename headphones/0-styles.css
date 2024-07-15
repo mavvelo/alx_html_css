@@ -1,7 +1,12 @@
 /* General styles */
 @font-face {
-    font-family: 'myFont';
-    src: url('fonts/source-sans-pro/SourceSansPro-Regular.otf');
+    font-family: 'Source Sans Pro';
+    src: url('fonts/source-sans-pro/SourceSansPro-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'spin Cycle OT';
+    src: url('fonts/Spin-Cycle-OT/spincycle_ot.otf') format('truetype');
 }
 
 @font-face {
