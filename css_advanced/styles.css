@@ -133,13 +133,13 @@ nav>ul>li {
 }
 
 .flex-div>h3 {
-    font-size: 19px;
+    font-size: 20px;
     text-align: center;
 }
 
 .flex-div>p {
-    width: 80%;
-    font-size: 13px;
+    width: 100%;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -249,22 +249,25 @@ nav>ul>li {
 }
 
 
-.quoted-img>img {
-    border-radius: 50%;
+.quoted-img img {
+    border-radius: 100%;
     cursor: pointer;
 }
 
-.my-quote>blockquote {
+.my-quote blockquote {
     font-size: 18px;
     padding-bottom: 15px;
+    text-align: left;
 }
 
-.my-quote>h3 {
+.my-quote h3 {
     font-size: 15px;
+    text-align: left;
 }
 
 .my-quote>p {
     font-size: 15px;
+    text-align: left;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -349,7 +352,7 @@ nav>ul>li {
 
 .sec3>h2 {
     font-size: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -416,7 +419,7 @@ nav>ul>li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-right: 30px;
+    padding-right: 20px;
 }
 
 .star {
@@ -540,6 +543,10 @@ nav>ul>li {
 /* styling fouth section of free mebership */
 
 .sec4 {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
     background-color: rgb(2, 0, 31);
     gap: 25px;
 }
@@ -554,8 +561,6 @@ nav>ul>li {
     font-size: 11px;
     border-radius: 20px;
     padding: 10px;
-    outline: none;
-    border: none;
     background-color: rgba(205, 43, 226);
     color: rgba(240, 255, 255);
     transition: all 1s ease;
@@ -573,7 +578,10 @@ nav>ul>li {
 }
 
 .smile {
-    display: flex;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: inline-flex;
     flex-direction: column;
     gap: 10px;
 }
